@@ -1,0 +1,13 @@
+{
+  "name": "hardhat-contract-smoke",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "build": "npx hardhat compile",
+    "node": "npx hardhat node --hostname 0.0.0.0",
+    "test": "npx hardhat test"
+  },
+  "devDependencies": {
+    "hardhat": "^3.0.0"
+  }
+}
